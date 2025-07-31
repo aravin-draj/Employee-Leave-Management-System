@@ -28,7 +28,7 @@ The system is designed with three roles in mind:
 - Approve or reject requests  
 - Review previously handled applications  
 
-### 👨‍💼 Admin Features
+### Admin Features
 
 - Admin login/logout  
 - Add new employee details (name, email, password, dept ID, role)  
