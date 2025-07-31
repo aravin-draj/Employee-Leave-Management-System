@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <display-name>ELMS</display-name>
+
+    <!-- Employee Login Servlet -->
+    <servlet>
+        <servlet-name>EmployeeLoginServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.EmployeeLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeLoginServlet</servlet-name>
+        <url-pattern>/EmployeeLogin</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Manager Login Servlet -->
+    <servlet>
+        <servlet-name>ManagerLoginServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.ManagerLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ManagerLoginServlet</servlet-name>
+        <url-pattern>/ManagerLogin</url-pattern>
+    </servlet-mapping>
+
+    <!-- Admin Login Servlet -->
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.AdminLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/AdminLogin</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Leave Request Servlet -->
+    <servlet>
+        <servlet-name>LeaveRequestServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.LeaveRequestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LeaveRequestServlet</servlet-name>
+        <url-pattern>/LeaveRequest</url-pattern>
+    </servlet-mapping>
+    
+    <!-- View Request Status Servlet -->
+    <servlet>
+        <servlet-name>ViewRequestStatusServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.ViewRequestStatusServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewRequestStatusServlet</servlet-name>
+        <url-pattern>/RequestStauts</url-pattern>
+    </servlet-mapping>
+    
+    <!-- View Pending Request Servlet -->
+    <servlet>
+        <servlet-name>ViewPendingRequestsServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.ViewPendingRequestsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewPendingRequestsServlet</servlet-name>
+        <url-pattern>/PendingRequests</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Update Leave Status Servlet -->
+    <servlet>
+        <servlet-name>UpdateLeaveStatusServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.UpdateLeaveStatusServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateLeaveStatusServlet</servlet-name>
+        <url-pattern>/UpdateLeaveStatus</url-pattern>
+    </servlet-mapping>
+    
+    <!-- View Completed Requests Servlet -->
+    <servlet>
+        <servlet-name>ViewCompletedRequestsServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.ViewCompletedRequestsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewCompletedRequestsServlet</servlet-name>
+        <url-pattern>/ViewCompletedRequests</url-pattern>
+    </servlet-mapping>
+    
+    <!-- View Completed Requests Servlet -->
+    <servlet>
+        <servlet-name>ViewLeaveHistoryServlet</servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.ViewLeaveHistoryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewLeaveHistoryServlet</servlet-name>
+        <url-pattern>/ViewLeaveHistory</url-pattern>
+    </servlet-mapping>
+    
+     <!-- Add New Employee Servlet -->
+    <servlet>
+        <servlet-name>AddEmployeeServlet </servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.AddEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddEmployeeServlet </servlet-name>
+        <url-pattern>/AddEmployee</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Edit Employee Employee Servlet -->
+    <servlet>
+        <servlet-name>EditEmployeeServlet </servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.EditEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditEmployeeServlet </servlet-name>
+        <url-pattern>/EditEmployee</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Update Employee Employee Servlet -->
+    <servlet>
+        <servlet-name>UpdateEmployeeServlet </servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.UpdateEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateEmployeeServlet </servlet-name>
+        <url-pattern>/UpdateEmployee</url-pattern>
+    </servlet-mapping>
+    
+    <!-- View Employee Servlet -->
+    <servlet>
+        <servlet-name>ViewEmployeeServlet </servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.ViewEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewEmployeeServlet </servlet-name>
+        <url-pattern>/ViewEmployee</url-pattern>
+    </servlet-mapping>
+    
+    <!-- View All Employee Servlet -->
+    <servlet>
+        <servlet-name>ViewAllEmployeeServlet </servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.ViewAllEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewAllEmployeeServlet </servlet-name>
+        <url-pattern>/ViewAllEmployee</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Delete Employee Servlet -->
+    <servlet>
+        <servlet-name>DeleteEmployeeServlet </servlet-name>
+        <servlet-class>com.leavemanagement.Servlets.DeleteEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteEmployeeServlet </servlet-name>
+        <url-pattern>/DeleteEmployee</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+
+</web-app>

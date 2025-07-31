@@ -1,0 +1,19 @@
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore build output
+build/
+target/
+*.class
+
+# Ignore logs and system files
+*.log
+.DS_Store
+
+# Ignore libraries (optional)
+src/main/webapp/WEB-INF/lib/
+
+#Ignore the Database Configuration Details
+dbconfig.properties
